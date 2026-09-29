@@ -1,0 +1,4 @@
+name: Chat
+version: 1.0
+main: com.company.Plugin
+api-version: 26.2

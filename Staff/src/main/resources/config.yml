@@ -1,0 +1,38 @@
+teleport:
+  successMessage: "§aTi sei teletrasportato con successo dal giocatore %player%"
+vanish:
+  enabled: "§aHai abilitato la vanish"
+  disabled: "§cHai disabilitato la vanish"
+kick:
+  screen: "§cSei stato kickato dallo staff %staffName%. Motivo: %reason%"
+  message: "§cHai kickato il giocatore %player%"
+mute:
+  messageMuted: |
+    §aHai mutato il giocatore %user%!
+    §aDurata: %duration%
+  playerMutedMessage: |
+                    §cSei stato mutato!
+                    §cStaff: %staff%
+                    §cDurata: %duration%
+                    §cMotivo: %reason%
+  toString: |
+    §cUtente Mutato
+    §cStaff: %staff%
+    §cUtente: %user%
+    §cDurata: %duration%
+    §cMotivo: %reason%
+ban:
+  messageBanned: |
+    §aHai bannato il giocatore %user%!
+    §aDurata: %duration%
+  playerBannedMessage: |
+                    §cSei stato bannato!
+                    §cStaff: %staff%
+                    §cDurata: %duration%
+                    §cMotivo: %reason%
+  toString: |
+    §cUtente Bannato
+    §cStaff: %staff%
+    §cUtente: %user%
+    §cDurata: %duration%
+    §cMotivo: %reason%

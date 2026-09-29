@@ -1,0 +1,14 @@
+name: Challenge
+version: 1.0
+main: com.company.Plugin
+api-version: 26.2
+
+commands:
+  challenge:
+    description: Gestisce le challenge
+    usage: /challenge <progress|top|start|stop|set|reset>
+
+permissions:
+  challenge.admin:
+    description: Permette di utilizzare i comandi amministrativi delle challenge
+    default: op

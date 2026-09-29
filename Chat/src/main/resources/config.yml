@@ -1,0 +1,5 @@
+groups:
+  vip:
+    message: "%player% %message%"
+  mod:
+    message: "%player% %message%"

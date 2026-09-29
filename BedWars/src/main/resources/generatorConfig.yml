@@ -1,0 +1,205 @@
+generators:
+  IRON:
+    material: IRON_INGOT
+    amount: 2
+    time: 1
+    max: 48
+  GOLD:
+    material: GOLD_INGOT
+    amount: 1
+    time: 3
+    max: 12
+  DIAMOND:
+    material: diamond
+    amount: 1
+    time:
+      first: 30
+      second: 20
+      third: 10
+      fourth: 5
+    max: 4
+  EMERALD:
+    material: emerald
+    amount: 1
+    time:
+      first: 30
+      second: 20
+      third: 10
+      fourth: 5
+    max: 2
+
+holograms:
+  DIAMOND:
+    message: |
+      §b§l%phase%
+      §f%name%
+      §7Spawn tra §b%time%§7 secondi
+  EMERALD:
+    message: |
+      §a§l%phase%
+      §f%name%
+      §7Spawn tra §a%time%§7 secondi
+
+locations:
+  BW-1:
+    world: "airshow"
+    center:
+      1:
+        type: DIAMOND
+        location:
+          x: -40
+          y: 65
+          z: 40
+        hologram:
+          location:
+            x: -40
+            y: 68
+            z: 40
+      2:
+        type: EMERALD
+        location:
+          x: -12
+          y: 61
+          z: -12
+        hologram:
+          location:
+            x: -12
+            y: 64
+            z: -12
+
+    generators:
+      1:
+        type: IRON
+        location:
+          x: -40
+          y: 63
+          z: -87
+      2:
+        type: GOLD
+        location:
+          x: -40
+          y: 63
+          z: -87
+      3:
+        type: IRON
+        location:
+          x: 40
+          y: 66
+          z: -86
+      4:
+        type: GOLD
+        location:
+          x: 40
+          y: 66
+          z: -86
+      5:
+        type: IRON
+        location:
+          x: 87
+          y: 66
+          z: -40
+      6:
+        type: GOLD
+        location:
+          x: 87
+          y: 66
+          z: -40
+      7:
+        type: IRON
+        location:
+          x: 87
+          y: 62
+          z: 40
+      8:
+        type: GOLD
+        location:
+          x: 87
+          y: 62
+          z: 40
+      9:
+        type: IRON
+        location:
+          x: 40
+          y: 62
+          z: 87
+      10:
+        type: GOLD
+        location:
+          x: 40
+          y: 62
+          z: 87
+      11:
+        type: IRON
+        location:
+          x: -40
+          y: 66
+          z: 87
+      12:
+        type: GOLD
+        location:
+          x: -40
+          y: 66
+          z: 87
+      13:
+        type: IRON
+        location:
+          x: -87
+          y: 66
+          z: 40
+      14:
+        type: GOLD
+        location:
+          x: -87
+          y: 66
+          z: 40
+      15:
+        type: IRON
+        location:
+          x: -87
+          y: 62
+          z: -40
+      16:
+        type: GOLD
+        location:
+          x: -87
+          y: 62
+          z: -40
+
+  BW-2:
+    world: "lighthouse"
+    center:
+      1:
+        type: DIAMOND
+        location:
+          x: -40
+          y: 65
+          z: 40
+        hologram:
+          location:
+            x: -40
+            y: 68
+            z: 40
+      2:
+        type: EMERALD
+        location:
+          x: -12
+          y: 61
+          z: -12
+        hologram:
+          location:
+            x: -12
+            y: 64
+            z: -12
+    generators:
+      1:
+        type: IRON
+        location:
+          x: -40
+          y: 63
+          z: -87
+      2:
+        type: GOLD
+        location:
+          x: -40
+          y: 63
+          z: -87

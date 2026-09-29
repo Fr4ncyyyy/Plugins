@@ -1,0 +1,63 @@
+scoreboards:
+  lobby:
+    title: "§b§lCORAL§f§lMC"
+    content:
+      - "§fNome: §b%player%"
+      - "Livello: 1 ☆"
+      - "§fClan: §bNessuno"
+      - "§0"
+      - "§fOnline: §b%nOnline%"
+      - "§fServer: §b%lobby%"
+      - "§1"
+      - "§2"
+      - "§fCoins: §e0"
+      - "§fGemme: §e0"
+      - "§3"
+      - "§eplay.coralmc.it"
+
+  waiting:
+    title: "§b§lBEDWARS"
+    content:
+      - "§0"
+      - "§1"
+      - "§fMappa: §b%arena%"
+      - "§fGiocatori: §b%players%§f/§b%maxPlayers%"
+      - "§2"
+      - "§fIn attesa..."
+      - "§3"
+      - "§4"
+      - "§fVersione: %version%"
+      - "§5"
+      - "§bplay.server.it"
+
+  starting:
+    title: "§b§lBEDWARS"
+    content:
+      - "§0"
+      - "§1"
+      - "§fMappa: §b%arena%"
+      - "§fGiocatori: §b%players%§f/§b%maxPlayers%"
+      - "§2"
+      - "§bInizio in §f%time%"
+      - "§3"
+      - "§4"
+      - "§fVersione: %version%"
+      - "§5"
+      - "§bplay.server.it"
+
+  running:
+    title: "§b§lBEDWARS"
+    content:
+      - "§0"
+      - "§1"
+      - "§c§lR §fRosso %red%"
+      - "§9§lB §fBlu %blue%"
+      - "§a§lV §fVerde %green%"
+      - "§e§lG §fGiallo %yellow%"
+      - "§b§lA §fAzzurro %acqua%"
+      - "§f§lB §fBianco %white%"
+      - "§d§lR §fRosa %pink%"
+      - "§7§lG §fGrigio %gray%"
+      - "§2"
+      - "§eplay.coralmc.it"
+    you: "§7TU"

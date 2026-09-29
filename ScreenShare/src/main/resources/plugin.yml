@@ -1,0 +1,46 @@
+name: ScreenShare
+version: 1.0
+main: com.company.Plugin
+api-version: 26.2
+
+commands:
+  ss:
+    description: "Comando controlli hack"
+    permission: screenshare.ss
+    permission-message: "Non hai il permesso di usare questo comando."
+    usage: "§cUsage: /ss <nick>"
+  ssclean:
+    description: "Libera una persona dal controllo hack"
+    permission: screenshare.ss
+    usage: "§cUsage: /ssclean"
+  sscommands:
+    description: "Mostra i pulsanti per lo ScreenShare"
+    permission: screenshare.ss
+    usage: "§cUsage: /sscommands"
+  ssspec:
+    description: "Comando per spectare un controllo hack"
+    permission: screenshare.ss
+    usage: "§cUsage: /ssspec <nickStaff>"
+  ssleave:
+    description: "Comando per smettere di spectare un controllo hack"
+    permission: screenshare.ss
+    usage: "§cUsage: /ssleave"
+  sslist:
+    description: "History precedenti ss"
+    permission: screenshare.admin
+    usage: "§cUsage: /sslist"
+  sslog:
+    description: "Precedenti ss di un player"
+    permission: screenshare.admin
+    usage: "§cUsage: /sslog <player>"
+  ssstats:
+    description: "Statistiche di un SSer"
+    permission: screenshare.admin
+    usage: "§cUsage: /ssstats <staff>"
+permissions:
+  screenshare.ss:
+    description: "Permette di usare i comandi dei controlli hack"
+    default: op
+  screenshare.admin:
+    description: "Comandi admin controlli hack"
+    default: op

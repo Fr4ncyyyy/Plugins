@@ -1,0 +1,6 @@
+matches:
+  minPlayersToStart: 2
+  maxPlayersToStart: 8
+  startingMessage: "§eLa partita inizierà tra §6%time% §esecondi!"
+  startingMessageFast: "§eLa partita inizierà tra §c%time% §esecondi!"
+  timeCountDown: 20

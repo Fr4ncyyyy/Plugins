@@ -1,0 +1,39 @@
+name: Staff
+version: 1.0
+main: com.company.Staff
+api-version: 1.21
+commands:
+  invsee:
+    description: Visualizza inventario giocatore
+    permission: staff.invsee
+    usage: "§cUsage: /invsee"
+    aliases:
+      - enderchest
+  tp:
+    description: Teletrasporta un giocatore
+    permission: staff.teleport
+    usage: "§cUsage: /tp [giocatore]"
+  kick:
+    description: kick un giocatore
+    permission: staff.kick
+    usage: "§cUsage: /kick [giocatore] [motivo]"
+  vanish:
+    description: comando per la vanish
+    permission: staff.vanish
+    usage: "§cUsage: /vanish"
+  mute:
+    description: muta un utente
+    permission: staff.mute
+    usage: "§cUsage: /mute [giocatore] [durata] [motivo]"
+    aliases:
+      - tempmute
+  ban:
+    description: banna un utente
+    permission: staff.ban
+    usage: "§cUsage: /ban [giocatore] [durata] [motivo]"
+    aliases:
+      - tempban
+  check:
+    description: Controlla se un utente ha sanzioni attive
+    permission: staff.check
+    usage: "§cUsage: /check [giocatore]"

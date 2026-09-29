@@ -1,0 +1,159 @@
+world:
+  name: "ScreenShare"
+  spawnStaff:
+    x: 36.0
+    y: 189.0
+    z: 0.0;
+    yaw: 90.0
+    pitch: 0.0
+  spawnUser:
+    x: 32.0
+    y: 189.0
+    z: 0.0
+    yaw: -90.0
+    pitch: 0.0
+  spawnSpectator:
+    x: 36.0
+    y: 189.0
+    z: 0.0
+    yaw: 90.0
+    pitch: 0.0
+
+lobby:
+  name: "world"
+  spawn:
+    x: 39.0
+    y: 64.0
+    z: -77.0
+    yaw: 0.0
+    pitch: 0.0
+
+scoreboardStaff:
+  title: "§c§lSCREENSHARE"
+  rows:
+    - "§0"
+    - "§fNome: §b%staff%"
+    - "§1"
+    - "§fTempo: §7%time%"
+    - "§fSospetto: §b%user%"
+    - "§2"
+    - "§eplay.server.it"
+
+scoreboardUser:
+  title: "§c§lSCREENSHARE"
+  rows:
+    - "§0"
+    - "§fNome: §b%user%"
+    - "§1"
+    - "§fTempo: §7%time%"
+    - "§fStaff: §b%staff%"
+    - "§2"
+    - "§eplay.server.it"
+
+scoreboardSpectator:
+  title: "§c§lSCREENSHARE"
+  rows:
+    - "§0"
+    - "§fStaff: §b%staff%"
+    - "§1"
+    - "§fTempo: §7%time%"
+    - "§fSospetto: §b%user%"
+    - "§2"
+    - "§eplay.server.it"
+
+scoreboardVisit:
+  title: "§c§lSCREENSHARE"
+  rows:
+    - "§0"
+    - "§fNome: §b%player%"
+    - "§1"
+    - "§7Non sei all'interno"
+    - "§7di nessun controllo"
+    - "§2"
+    - "§eplay.server.it"
+
+
+
+prepareCommands: false
+buttons:
+  btn1:
+    text: "§c§l[ §fCheating §8(§cScreenShare§8) §c§l]"
+    color: "RED"
+    hover: "§c» §fBanna %player% §cper Cheating (ScreenShare)"
+    command: "/ban %player% 30d Cheating (ScreenShare)"
+
+  btn2:
+    text: "§6§l[ §fRefusal to SS §6§l]"
+    color: "GOLD"
+    hover: "§6» §fBanna %player% §6per rifiuto controllo hack"
+    command: "/ban %player% 30d Refusal to SS"
+
+  btn3:
+    text: "§e§l[ §fLogged Out §8(§eFrozen§8) §e§l]"
+    color: "YELLOW"
+    hover: "§e» §fBanna %player% §eper essersi disconnesso"
+    command: "/ban %player% 30d Logged out whilst frozen"
+
+  btn4:
+    text: "§4§l[ §fCheating §8(§cAdmitted§8) §4§l]"
+    color: "DARK_RED"
+    hover: "§4» §fBanna %player% §4per Cheating (Admitted)"
+    command: "/ban %player% 14d Cheating (Admitted)"
+
+  btn5:
+    text: "§5§l[ §fBan Evading §5§l]"
+    color: "DARK_PURPLE"
+    hover: "§5» §fBanna %player% §5per ban evading"
+    command: "/ban %player% Ban Evading"
+
+  btn6:
+    text: "§a§l[ §fClean §a§l]"
+    color: "GREEN"
+    hover: "§a» §fNessuna infrazione rilevata"
+    command: "/ssclean"
+
+allowedCommands:
+  - /fly
+
+messages:
+  notOnlineMessage: "§c%player% non è online"
+  samePersonMessage: "§cNon puoi fare un controllo a te stesso!"
+  notInSS: "§cNon sei all'interno di un controllo"
+  alreadyInSSMessage: "§c%player% è già in un controllo"
+  lockedCommand: "§cNon puoi usare questo comando!"
+  staffMessage: "§b§lSTAFF §8» §f%player% §7%message%"
+  userMessage: "§c§lFROZEN §8» §f%player% §7%message%"
+  spectatorMessage: "§8§lSPECTATOR §8» §f%player% §7%message%"
+  successSSMessage: "§aHai portato in controllo %player% correttamente"
+  cleanSSMessage: "§aHai liberato correttamente %player% dal controllo"
+  startSpecMessage: "§aStai spectando il controllo hack gestito da %staff%"
+  leaveSpecMessage: "§aHai lasciato il controllo hack gestito da %staff%"
+  titleSSMessage: "§c§lCONTROLLO ANTICHEAT"
+  descSSMessage: ""
+  playerSSedMessage: |
+    §c§l⚠ CONTROLLO ANTICHEAT
+    §8» §7Sei stato sottoposto a un §cScreenShare§7.
+    §8» §7Segui le indicazioni dello staff e preparati a utilizzare §cAnyDesk§7.
+    §8» §cNon disconnetterti §7durante il controllo.
+  ssListTitle: |
+    §8§m━━━━━━ §c§lPRECEDENTI SCREENSHARE §8§m━━━━━━
+  ssToString: |
+    §8§l┌─ §c§lSCREENSHARE
+    §8§l│ §7Staff: §f%staff%
+    §8§l│ §7Sospettato: §f%user%
+    §8§l│ §7Durata: §f%time%
+    §8§l│ §7Esito: %result%
+    §8§l└────────────────────
+  ssListEmpty: "§8[§c✘§8] §7La lista dei precedenti §cScreenShare §7è vuota."
+  ssLogTitle: "§8§m━━━━━━ §c§lSTORICO SCREENSHARE §8§m━━━━━━\n§7Giocatore: §f%player%"
+  ssLogEmpty: "§8[§c✘§8] §7La lista dei precedenti §cScreenShare §7di §f%player% §7è vuota."
+  stats: |
+    §8§l┌─ §c§lSTATISTICHE SCREENSHARE
+    §8§l│ §7Staff: §f%player%
+    §8§l│ §7Bans: §c%SSBans%
+    §8§l│ §7Cleans: §a%SSCleans%
+    §8§l└────────────────────
+  errorNeverPlayedMessage: "§cIl giocatore %player% non è mai entrato nel server."
+  ErrorNotSpectatorMessage: "§cNon stai spectando uno ScreenShare"
+  errorNotValidSpec: "§cNon puoi spectare questo ScreenShare"
+  errorNotStaffMessage: "§c%player% non è uno staff"

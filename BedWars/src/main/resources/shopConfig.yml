@@ -1,0 +1,271 @@
+shop:
+  normals:
+    normal:
+      size: 54
+      title: "Acquisto rapido"
+      teamID: 1
+      itemsShop:
+        #BLOCKS
+        wool:
+          slot: 19
+          material: WHITE_WOOL
+          amount: 16
+          price:
+            material: IRON_INGOT
+            amount: 4
+        wood:
+          slot: 28
+          material: OAK_PLANKS
+          amount: 16
+          price:
+            material: GOLD_INGOT
+            amount: 4
+        end_stone:
+          slot: 37
+          material: END_STONE
+          amount: 12
+          price:
+            material: IRON_INGOT
+            amount: 24
+        obsidian:
+          material: OBSIDIAN
+          amount: 4
+          price:
+            material: EMERALD
+            amount: 4
+        #UTILS
+        shears:
+          slot: 40
+          material: SHEARS
+          amount: 1
+          price:
+            material: IRON_INGOT
+            amount: 20
+        pickaxe:
+          slot: 22
+          material: "%pickaxe%"
+          amount: 1
+          type:
+            wooden:
+              price:
+                material: IRON_INGOT
+                amount: 10
+            stone:
+              price:
+                material: IRON_INGOT
+                amount: 20
+            iron:
+              price:
+                material: GOLD_INGOT
+                amount: 3
+            golden:
+              price:
+                material: GOLD_INGOT
+                amount: 6
+            diamond:
+              price:
+                material: GOLD_INGOT
+                amount: 12
+        axe:
+          slot: 31
+          material: "%axe%"
+          amount: 1
+          type:
+            wooden:
+              price:
+                material: IRON_INGOT
+                amount: 10
+            stone:
+              price:
+                material: IRON_INGOT
+                amount: 20
+            iron:
+              price:
+                material: GOLD_INGOT
+                amount: 3
+            golden:
+              price:
+                material: GOLD_INGOT
+                amount: 6
+            diamond:
+              price:
+                material: GOLD_INGOT
+                amount: 12
+
+        #BOWS
+        arrow:
+          slot: 41
+          material: ARROW
+          amount: 6
+          price:
+            material: GOLD_INGOT
+            amount: 2
+        bow:
+          slot: 23
+          material: BOW
+          amount: 1
+          price:
+            material: GOLD_INGOT
+            amount: 12
+        enchanted_bows:
+          1:
+            slot: 32
+            material: BOW
+            amount: 1
+            effects:
+              power:
+                level: 1
+            price:
+              material: GOLD_INGOT
+              amount: 24
+          2:
+            material: BOW
+            amount: 1
+            effects:
+              power:
+                level: 1
+              punch:
+                level: 1
+            price:
+              material: EMERALD
+              amount: 6
+
+        #OTHER
+        golden_apple:
+          slot: 43
+          material: GOLDEN_APPLE
+          amount: 1
+          price:
+            material: GOLD_INGOT
+            amount: 3
+        fireball:
+          slot: 34
+          material: FIRE_CHARGE
+          amount: 1
+          price:
+            material: IRON_INGOT
+            amount: 40
+        tnt:
+          slot: 25
+          material: TNT
+          amount: 1
+          price:
+            material: GOLD_INGOT
+            amount: 4
+        #WEAPONS
+        stone_sword:
+          material: STONE_SWORD
+          amount: 1
+          price:
+            material: IRON_INGOT
+            amount: 10
+        iron_sword:
+          material: IRON_SWORD
+          amount: 1
+          price:
+            material: GOLD_INGOT
+            amount: 7
+        diamond_sword:
+          slot: 38
+          material: DIAMOND_SWORD
+          amount: 1
+          price:
+            material: EMERALD
+            amount: 4
+        #ARMOR
+        chainmail_boots:
+          slot: 21
+          material: CHAINMAIL_BOOTS
+          amount: 1
+          price:
+            material: IRON_INGOT
+            amount: 40
+        iron_boots:
+          material: IRON_BOOTS
+          amount: 1
+          price:
+            material: GOLD_INGOT
+            amount: 12
+        diamond_boots:
+          slot: 39
+          material: DIAMOND_BOOTS
+          amount: 1
+          price:
+            material: EMERALD
+            amount: 6
+      categories:
+        blocks:
+          slot: 1
+          material: TERRACOTTA
+          name: "&bBlocchi"
+          items:
+            wool:
+              slot: 19
+            wood:
+              slot: 20
+            end_stone:
+              slot: 21
+            obsidian:
+              slot: 22
+        weapons:
+          slot: 2
+          material: IRON_SWORD
+          name: "&bArmi"
+          items:
+            stone_sword:
+              slot: 19
+            iron_sword:
+              slot: 20
+            diamond_sword:
+              slot: 21
+        armors:
+          slot: 3
+          material: CHAINMAIL_BOOTS
+          name: "&bArmature"
+          items:
+            chainmail_boots:
+              slot: 19
+            iron_boots:
+              slot: 20
+            diamond_boots:
+              slot: 21
+        utils:
+          slot: 4
+          material: WOODEN_PICKAXE
+          name: "&bUtensili"
+          items:
+            pickaxe:
+              slot: 19
+            axe:
+              slot: 20
+            shears:
+              slot: 21
+        bows:
+          slot: 5
+          material: BOW
+          name: "&bArchi"
+          items:
+            bow:
+              slot: 19
+            1:
+              slot: 20
+            2:
+              slot: 21
+            arrow:
+              slot: 22
+        poisons:
+          slot: 6
+          material: POTION
+          name: "&bPozioni"
+          items:
+            invisibility:
+              slot: 19
+            jump:
+              slot: 20
+            speed:
+              slot: 21
+
+
+npcs:
+  normal:
+    name: "SHOP ITEM"

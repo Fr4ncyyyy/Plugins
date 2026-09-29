@@ -1,0 +1,297 @@
+lobby:
+  name: "BWLobby"
+  spawn:
+    x: 0.445
+    y: 140
+    z: 0.600
+    yaw: -90
+    pitch: 0.0f
+arenas:
+  BW-1:
+      world: "airshow"
+      teams:
+        red:
+          id: 1
+          spawn:
+            x: -40
+            y: 63
+            z: -83
+            yaw: 0
+            pitch: 0
+          npcs:
+            normal:
+              location:
+                x: -35
+                y: 63
+                z: -83
+            upgrade:
+              location:
+                x: -45
+                y: 63
+                z: -83
+          bed:
+            location:
+              x: -40
+              y: 63
+              z: -77
+        blue:
+          id: 2
+          spawn:
+            x: 40
+            y: 67
+            z: -83
+            yaw: 0
+            pitch: 0
+          npcs:
+            normal:
+              location:
+                x: 43
+                y: 67
+                z: -83
+            upgrade:
+              location:
+                x: 35
+                y: 67
+                z: -83
+          bed:
+            location:
+              x: 40
+              y: 67
+              z: -67
+        green:
+          id: 3
+          spawn:
+            x: 83
+            y: 67
+            z: -40
+            yaw: 90
+            pitch: 0
+          npcs:
+            normal:
+              location:
+                x: 83
+                y: 67
+                z: -34
+            upgrade:
+              location:
+                x: 83
+                y: 67
+                z: -45
+          bed:
+            location:
+              x: 77
+              y: 67
+              z: -39
+        yellow:
+          id: 4
+          spawn:
+            x: 83
+            y: 63
+            z: 40
+            yaw: 90
+            pitch: 0
+          npcs:
+            normal:
+              location:
+                x: 84
+                y: 63
+                z: 45
+            upgrade:
+              location:
+                x: 84
+                y: 63
+                z: 37
+          bed:
+            location:
+              x: 77
+              y: 63
+              z: 40
+        acqua:
+          id: 5
+          spawn:
+            x: 40
+            y: 63
+            z: 83
+            yaw: 180
+            pitch: 0
+          npcs:
+            normal:
+              location:
+                x: 35
+                y: 63
+                z: 83
+            upgrade:
+              location:
+                x: 45
+                y: 63
+                z: 83
+          bed:
+            location:
+              x: 40
+              y: 63
+              z: 77
+        white:
+          id: 6
+          spawn:
+            x: -40
+            y: 67
+            z: 83
+            yaw: 180
+            pitch: 0
+          npcs:
+            normal:
+              location:
+                x: -44
+                y: 67
+                z: 83
+            upgrade:
+              location:
+                x: -34
+                y: 67
+                z: 83
+          bed:
+            location:
+              x: -40
+              y: 67
+              z: 77
+        pink:
+          id: 7
+          spawn:
+            x: -83
+            y: 67
+            z: 40
+            yaw: -90
+            pitch: 0
+          npcs:
+            normal:
+              location:
+                x: -83
+                y: 67
+                z: 35
+            upgrade:
+              location:
+                x: -83
+                y: 67
+                z: 45
+          bed:
+            location:
+              x: -77
+              y: 67
+              z: 40
+        gray:
+          id: 8
+          spawn:
+            x: -83
+            y: 63
+            z: -40
+            yaw: -90
+            pitch: 0
+          npcs:
+            normal:
+              location:
+                x: -82
+                y: 63
+                z: 45
+            upgrade:
+              location:
+                x: -83
+                y: 63
+                z: 34
+          bed:
+            location:
+              x: -77
+              y: 63
+              z: -40
+
+      waitingSpawn:
+        x: 0.424
+        y: 118
+        z: 0.705
+        yaw: 0
+        pitch: 0
+
+      spectatorSpawn:
+        x: 0
+        y: 104
+        z: 0
+        yaw: 0
+        pitch: 0
+  BW-2:
+      world: "lighthouse"
+      teams:
+        red:
+          id: 1
+          spawn:
+            x: -22
+            y: 65
+            z: -88
+            yaw: 0
+            pitch: 0
+        blue:
+          id: 2
+          spawn:
+            x: 29
+            y: 65
+            z: -88
+            yaw: 0
+            pitch: 0
+        green:
+          id: 3
+          spawn:
+            x: 91
+            y: 65
+            z: -26
+            yaw: 0
+            pitch: 0
+        yellow:
+          id: 4
+          spawn:
+            x: 91
+            y: 65
+            z: 26
+            yaw: 0
+            pitch: 0
+        acqua:
+          id: 5
+          spawn:
+            x: 29
+            y: 65
+            z: 88
+            yaw: 0
+            pitch: 0
+        white:
+          id: 6
+          spawn:
+            x: -23
+            y: 65
+            z: 88
+            yaw: 0
+            pitch: 0
+        pink:
+          id: 7
+          spawn:
+            x: -85
+            y: 65
+            z: 26
+            yaw: 0
+            pitch: 0
+        gray:
+          id: 8
+          spawn:
+            x: -85
+            y: 65
+            z: -26
+            yaw: 0
+            pitch: 0
+      waitingSpawn:
+        x: 0
+        y: 118
+        z: 0
+        yaw: 0
+        pitch: 0
+      spectatorSpawn:
+        x: 3
+        y: 109
+        z: 0
+        yaw: 0
+        pitch: 0
