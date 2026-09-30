@@ -1,0 +1,7 @@
+name: InventoryBackupper
+version: 1.0
+main: com.company.InventoryBackupper
+api-version: 1.21
+commands:
+  inventorybackupper:
+    usage: "§cUsage: /inventorybackupper info"
