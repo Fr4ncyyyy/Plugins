@@ -1,0 +1,8 @@
+inventoriesSavedMessage: "§aSono presenti %number% backups del tuo inventario"
+triggers:
+  DEATH:
+    max_backup: 3
+    enabled: true
+  JOIN:
+    max_backup: 2
+    enabled: true
